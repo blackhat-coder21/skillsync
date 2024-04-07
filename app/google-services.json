@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "789658722676",
+    "project_id": "skillsync-904ec",
+    "storage_bucket": "skillsync-904ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789658722676:android:ab76f56455ed14863ecc21",
+        "android_client_info": {
+          "package_name": "com.example.splash_screen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmHA3qql_9x4c6g8DnM82pqoEDIdeD2a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
