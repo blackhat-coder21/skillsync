@@ -24,7 +24,7 @@
         android:layout_marginBottom="40dp"
         android:gravity="center"
         android:text="learn anything,teach everything"
-        android:textColor="#078197"
+        android:textColor="#377CB0"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

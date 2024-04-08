@@ -8,6 +8,10 @@ android {
     namespace = "com.example.splash_screen"
     compileSdk = 34
 
+
+    buildFeatures{
+        viewBinding= true
+    }
     defaultConfig {
         applicationId = "com.example.splash_screen"
         minSdk = 24
