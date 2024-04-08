@@ -28,7 +28,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/useremail"
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:layout_marginStart="17.5dp"
@@ -37,10 +37,12 @@
         android:background="@drawable/edittextshape"
         android:elevation="10dp"
         android:ems="10"
-        android:hint=" Username"
+        android:hint=" email-id"
         android:paddingStart="18dp"
+        android:inputType="textEmailAddress"
         android:shadowColor="@color/black"
         android:shadowDy="4"
+        android:textColor="#1E1D1D"
         android:textColorHint="@color/hintColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -60,11 +62,12 @@
         android:paddingStart="18dp"
         android:shadowColor="@color/black"
         android:shadowDy="4"
+        android:textColor="#100F0F"
         android:textColorHint="@color/hintColor"
-        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="@+id/useremail"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/username"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintStart_toStartOf="@+id/useremail"
+        app:layout_constraintTop_toBottomOf="@+id/useremail" />
 
     <TextView
         android:id="@+id/forgotpassword"
