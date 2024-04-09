@@ -35,4 +35,3 @@ import com.example.splash_screen.databinding.ActivityLoginBinding
 
 
     }
-}

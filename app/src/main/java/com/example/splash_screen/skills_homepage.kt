@@ -33,7 +33,7 @@ class skills_homepage : AppCompatActivity() {
         adapter.setonItemClickListner(object : LanguageAdapter.onItemClickListner{
             override fun onItemClick(position: Int) {
 //                Toast.makeText(this@skills_homepage, "Welcome", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this@skills_homepage, splash_screen::class.java)
+                val intent = Intent(this@skills_homepage, VideoWeb::class.java)
                 startActivity(intent)
             }
 
