@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">splash_screen</string>
+    <string name="app_name">skillSync</string>
+    <string name="open_nav">open navigation bar</string>
+    <string name="close_nav">close navigationn bar</string>
+
 </resources>
