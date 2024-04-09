@@ -27,12 +27,10 @@ import com.example.splash_screen.databinding.ActivityLoginBinding
             }
 
             binding.teacherButton.setOnClickListener {
-                startActivity(Intent(this,splash_screen::class.java))
+                startActivity(Intent(this,add_teacher_profile::class.java))
                 finish()
             }
 
         }
 
-
-    }
 }
