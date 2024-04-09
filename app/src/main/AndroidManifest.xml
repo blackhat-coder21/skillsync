@@ -19,6 +19,9 @@
             android:name=".login"
             android:exported="false" />
         <activity
+            android:name=".skills_homepage"
+            android:exported="false" />
+        <activity
             android:name=".splash_screen"
             android:exported="true">
             <intent-filter>

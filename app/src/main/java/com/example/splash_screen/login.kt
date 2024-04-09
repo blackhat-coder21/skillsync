@@ -19,15 +19,14 @@ class login : AppCompatActivity() {
     }
 
     private lateinit var firebaseAuth: FirebaseAuth
-//    override fun onStart() {
-//        super.onStart()
-//        val currentUser : FirebaseUser ? = firebaseAuth.currentUser
-//
-//        if(currentUser !=null){
-//            startActivity(Inten
-    //            t(this,MainActivity::class.java))
-//        }
-//    }
+    override fun onStart() {
+        super.onStart()
+        val currentUser : FirebaseUser ? = firebaseAuth.currentUser
+
+        if(currentUser !=null){
+            startActivity(Intent(this,skills_homepage::class.java))
+        }
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -49,7 +48,7 @@ class login : AppCompatActivity() {
                     .addOnCompleteListener { task ->
                         if(task.isSuccessful) {
                             Toast.makeText(this, "SIGN-IN SUCCESSFUL", Toast.LENGTH_SHORT).show()
-                            startActivity(Intent(this,skills_homepage::class.java))
+                            startActivity(Intent(this@login,skills_homepage::class.java))
                             finish()
                         }
                         else{
